@@ -66,6 +66,6 @@ run_analysis <- function() {
     res <- aggregate(filtered[,-c(1,2)], 
                      list(subject = filtered$subject, 
                           activity = filtered$activity), mean)
-    write.table(res,file="getdata-007-means.txt")
+    write.table(res,file="getdata-007-means.txt",row.names=FALSE)
     res
 }
