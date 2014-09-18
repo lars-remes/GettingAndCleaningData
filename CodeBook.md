@@ -7,7 +7,7 @@ at Coursera / John Hopkins Bloomberg School of Health
 
 This R script does the following:
 * Reads the raw data files
-* Merges the raw training and the test sets to create one data set.
+* Merges the raw 'train' and 'test' data sets to create one data set.
 * Merges activity and subject ids to data set
 * Labels the data set with the variable names. 
 * Converts activity ids to factor variable and labels the activities
